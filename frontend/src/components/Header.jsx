@@ -33,7 +33,7 @@ const Header = () => {
 				cursor={"pointer"}
 				alt='logo'
 				w={6}
-				src={colorMode === "dark" ? "/public/mylogo.png" : "/public/mylogo.png"}
+				src={colorMode === "dark" ? "/mylogo.png" : "/mylogo.png"}
 				onClick={toggleColorMode}
 			/>
 
